@@ -30,6 +30,7 @@
 
 Is not good to have right *blank-space(s)* in a line after logic.
 
+```Ruby
 # bad - blank-spaces after code
 def some_method&nbsp;&nbsp;&nbsp;&nbsp;
   #Code here...
@@ -39,6 +40,7 @@ end
 def some_method
   #Code here...
 end
+```
 
 == Blank line at the start
 
