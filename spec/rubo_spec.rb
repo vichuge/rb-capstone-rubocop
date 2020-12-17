@@ -1,4 +1,4 @@
-require './lib/rubo'
+require_relative '../lib/rubo'
 
 describe Rubo do
   describe '.right-spaces' do
