@@ -9,4 +9,6 @@ o_scale = 1 / 48r
 foo  &.  bar
 foo  &.bar
 foo&.  bar;
+[ 1,2, 3 ].each{|e| puts e}
 [ 1, 2, 3 ].each{|e| puts e}
+[1, 2, 3].each{|e| puts e}
