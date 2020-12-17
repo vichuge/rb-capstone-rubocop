@@ -12,6 +12,25 @@ describe Rubo do
     end
   end
 
+  describe '.blank_line' do
+    it 'return error because exist a blank line in the file' do
+      text = "./examples/inside_example/worst.rb line:1 'Blank line at the start of the script'\n"
+      name = './examples/inside_example/worst.rb'
+      file = File.open(name)
+      file.each_with_index do |line, i|
+        expect(Rubo.blank_line(name, line, i)).to eql(text) if i.zero?
+      end
+    end
+
+    it "no return because there's not a blank" do
+      name = './examples/good.rb'
+      file = File.open(name)
+      file.each_with_index do |line, i|
+        expect(Rubo.blank_line(name, line, i)).to eql(nil) if i.zero?
+      end
+    end
+  end
+
   describe '.semicolon' do
     it 'return error because exist a semicolon at the end line' do
       expect(Rubo.semicolon('./examples/inside_example/bad.rb', 'p "puts";',
