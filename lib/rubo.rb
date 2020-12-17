@@ -1,5 +1,4 @@
 class Rubo
-  attr_reader :errors
 
   def self.run(directory)
     errors = Array.new
