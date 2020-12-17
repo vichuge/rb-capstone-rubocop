@@ -22,7 +22,6 @@
 - Open the folder in a terminal and run the main file with "ruby bin/main.rb".
 - Check the rspec test using "rspec" in the terminal.
 
-
 ## Rules
 
 > As a style checker, this tool helps in specific ways to have your code according to good practices in ruby language. Here you can see some examples who explain rules and to know what exactly mark this tool when you run it.
@@ -31,6 +30,7 @@
 
 Is not good to have right *blank-space(s)* in a line after logic.
 
+[source,ruby]
 ----
 # bad - blank-spaces after code
 def some_method&nbsp;&nbsp;&nbsp;&nbsp;
@@ -47,6 +47,7 @@ end
 
 Consider blank lines at the script start.
 
+[source,ruby]
 ----
 # bad - a blank line
 
@@ -64,6 +65,7 @@ end
 
 A Semicolon after the line is not required.
 
+[source,ruby]
 ----
 # bad - using a semicolon
 puts "I'm a puts";
@@ -76,6 +78,7 @@ puts "I'm a puts"
 
 When a navigation operator is used, is not required to have blank spaces between the operator and the elements.
 
+[source,ruby]
 ----
 # bad
 foo &. bar
@@ -90,6 +93,7 @@ foo&.bar
 
 The array should have a blank space between the open key with the first element, between the comma with next element, and before the close key.
 
+[source,ruby]
 ----
 # bad
 [ 1,2, 3 ]
@@ -103,6 +107,7 @@ The array should have a blank space between the open key with the first element,
 
 The exponent operator symbol and the elements should be together.
 
+[source,ruby]
 ----
 # bad
 e  = M * c ** 2
