@@ -30,8 +30,6 @@
 
 Is not good to have right *blank-space(s)* in a line after logic.
 
-[source,ruby]
-----
 # bad - blank-spaces after code
 def some_method&nbsp;&nbsp;&nbsp;&nbsp;
   #Code here...
@@ -41,14 +39,11 @@ end
 def some_method
   #Code here...
 end
-----
 
 == Blank line at the start
 
 Consider blank lines at the script start.
 
-[source,ruby]
-----
 # bad - a blank line
 
 def some_method
@@ -59,27 +54,21 @@ end
 def some_method
   #Code here...
 end
-----
 
 == Semicolon
 
 A Semicolon after the line is not required.
 
-[source,ruby]
-----
 # bad - using a semicolon
 puts "I'm a puts";
 
 # good
 puts "I'm a puts"
-----
 
 == Navigation operator
 
 When a navigation operator is used, is not required to have blank spaces between the operator and the elements.
 
-[source,ruby]
-----
 # bad
 foo &. bar
 foo &.bar
@@ -87,34 +76,27 @@ foo&. bar
 
 # good
 foo&.bar
-----
 
 == Space between elements in Array
 
 The array should have a blank space between the open key with the first element, between the comma with next element, and before the close key.
 
-[source,ruby]
-----
 # bad
 [ 1,2, 3 ]
 [1, 2, 3]
 
 # good
 [ 1, 2, 3 ]
-----
 
 == Space between exponent operator is not required
 
 The exponent operator symbol and the elements should be together.
 
-[source,ruby]
-----
 # bad
 e  = M * c ** 2
 
 # good
 e = M * c**2
-----
 
 ## Authors
 
