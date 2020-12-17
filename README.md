@@ -130,4 +130,4 @@ Give an ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](https://github.com/vichuge/rb-capstone-rubocop/blob/main/LICENSE) licensed, thanks.
+This project is [MIT](https://github.com/vichuge/rb-capstone-rubocop/blob/rubocop-logic/LICENSE) licensed, thanks.
