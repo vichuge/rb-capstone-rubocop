@@ -4,6 +4,8 @@
 
 > A rubocop version made by myself for ruby language. This tool helps to get the rubocop issues in a script.
 
+![screenshot](./assets/imgs/screenshot.png)
+
 **This project was build with ruby 2.7.2p137 (2020-10-01 revision 5445e04352) [x64-mingw32]**
 
 ## Built With
