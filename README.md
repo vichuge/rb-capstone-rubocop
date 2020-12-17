@@ -46,6 +46,7 @@ end
 
 Consider blank lines at the script start.
 
+```Ruby
 # bad - a blank line
 
 def some_method
@@ -56,21 +57,25 @@ end
 def some_method
   #Code here...
 end
+```
 
 == Semicolon
 
 A Semicolon after the line is not required.
 
+```Ruby
 # bad - using a semicolon
 puts "I'm a puts";
 
 # good
 puts "I'm a puts"
+```
 
 == Navigation operator
 
 When a navigation operator is used, is not required to have blank spaces between the operator and the elements.
 
+```Ruby
 # bad
 foo &. bar
 foo &.bar
@@ -78,27 +83,32 @@ foo&. bar
 
 # good
 foo&.bar
+```
 
 == Space between elements in Array
 
 The array should have a blank space between the open key with the first element, between the comma with next element, and before the close key.
 
+```Ruby
 # bad
 [ 1,2, 3 ]
 [1, 2, 3]
 
 # good
 [ 1, 2, 3 ]
+```
 
 == Space between exponent operator is not required
 
 The exponent operator symbol and the elements should be together.
 
+```Ruby
 # bad
 e  = M * c ** 2
 
 # good
 e = M * c**2
+```
 
 ## Authors
 
